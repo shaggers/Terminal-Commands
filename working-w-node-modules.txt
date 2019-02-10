@@ -1,0 +1,37 @@
+#### Questions
+
+Q1. How do you import a module?
+
+A: First we have to check that the file was created or downloaded in the same 
+directory as our target file. We can then import the module by using require()
+and assigning it to a variable.
+
+Q2. What JavaScript statement do you use to export a module?
+
+A: We can use "exports" or "module.exports" if we want our module to be a 
+specific object type.
+
+#### Online Research Questions
+
+Q1. Are there other ways to export a module?
+
+A: The two ways to export a module is by using exports and module.exports.
+Exports is just a short hand version, however has only a few distinct purposes.
+When using exports, we should use it on a method directly, and not on an object.
+When assigning an object to exports, you should use module.exports.
+
+Q2. What are ES6 modules and how do they differ from the module we created 
+in this checkpoint?
+
+A: ES6 modules have compact syntax, similar to CommonJS. They also have support for
+asynchronous and module loading. It also has support for cyclic dependancies. The
+module mainly has two parts. Declarative syntax and module configuration. One 
+difference I noticed by just analyzing the syntax is that all you have to do is 
+declare the export word and not have to assign any values to it. It also uses 
+the word import instead of using require as a method.
+
+#### Code Challenge
+
+Q1. Create a Github repository called Terminal Command and add the code from
+ this checkpoint. Implement the touch and mkdir commands to the terminal-commands 
+ module:
